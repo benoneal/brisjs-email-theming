@@ -3,7 +3,7 @@ import parse from 'pure-color/parse'
 import createTints from './tintGenerator'
 
 const {keys} = Object
-const {isArray} = isArray
+const {isArray} = Array
 const maxBy = (arr, scoreFn) => {
   let i = arr.length, highIndex = 0, highScore = 0
   while(i--) {
